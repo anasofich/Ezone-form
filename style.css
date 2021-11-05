@@ -1,0 +1,62 @@
+:root {
+  --h1-size: 3.5rem;
+  --h2-size: ;
+  --h3-size: ;
+  --h4-size: ;
+  --p-size: ;
+  --label-text: ;
+  --label-checkbox: ;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.modal {
+  background-color: #2b2e4b;
+  color: antiquewhite;
+  margin: auto;
+  margin-top: 3rem;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 45px;
+  z-index: 1;
+}
+
+.boxBorder {
+  border: 3px solid pink;
+}
+
+h1 {
+  font-size: var(--h1-size);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+h3 {
+  font-size: var(--h3-size);
+}
+h4 {
+  font-size: var(--h4-size);
+}
+
+p {
+  font-size: var(--p-size);
+}
+
+.info label {
+  font-size: var(--label-text);
+}
+
+.checkboxForms label {
+  font-size: var(--label-checkbox);
+}
